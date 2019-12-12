@@ -1,0 +1,8 @@
+goos: darwin
+goarch: amd64
+pkg: my
+BenchmarkRabinKarp-4   	     499	   2585756 ns/op	       0 B/op	       0 allocs/op
+BenchmarkNaive-4       	     312	   3985885 ns/op	       0 B/op	       0 allocs/op
+BenchmarkKMP-4         	     273	   4818012 ns/op	     384 B/op	       1 allocs/op
+PASS
+ok  	my	4.955s
